@@ -1,0 +1,15 @@
+# Dataset Information
+
+Dataset Name:
+NTHU Driver Drowsiness Detection Dataset
+
+Purpose:
+Used for driver fatigue detection evaluation.
+
+Classes:
+
+* Alert
+* Drowsy
+
+Application:
+GuardianWheel Fatigue Detection Module
