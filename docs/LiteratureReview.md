@@ -1,39 +1,20 @@
 # Literature Review
 
-## Driver Drowsiness Detection using Eye Aspect Ratio (EAR)
+Several studies have explored driver fatigue detection using computer vision and machine learning techniques.
 
-Several research studies use Eye Aspect Ratio (EAR) to monitor eye closure and blinking patterns for detecting driver fatigue.
+1. Facial Landmark Detection:
+   Researchers have used facial landmarks to track eye movement, blinking patterns, and head posture. Dlib and OpenCV are commonly used libraries for landmark extraction.
 
-### Findings
-- Real-time fatigue detection is possible.
-- EAR is computationally efficient.
+2. Eye Aspect Ratio (EAR):
+   EAR is widely used for detecting eye closure duration. A significant decrease in EAR indicates drowsiness.
 
-### Limitation
-- Only provides alerts.
-- No practical assistance after fatigue detection.
+3. PERCLOS Method:
+   Percentage of Eye Closure (PERCLOS) measures the proportion of time the eyes remain closed over a specific duration. It is considered one of the most reliable indicators of fatigue.
 
----
+4. Deep Learning Approaches:
+   Recent systems utilize CNNs and attention-based models to classify driver states from video streams. However, these models require large datasets and computational resources.
 
-## Computer Vision Based Driver Monitoring Systems
+5. Real-Time Driver Monitoring:
+   Modern solutions focus on real-time monitoring using webcams and embedded systems. These approaches improve accessibility and deployment feasibility.
 
-Modern driver monitoring systems use OpenCV and facial landmark detection to track driver alertness.
-
-### Findings
-- High detection accuracy.
-- Real-time monitoring.
-
-### Limitation
-- Limited to warning systems.
-- No driver replacement mechanism.
-
----
-
-## Research Gap
-
-Existing systems focus on detecting fatigue but do not provide complete driver assistance solutions.
-
-GuardianWheel extends these systems by integrating:
-- Driver Fatigue Detection
-- Replacement Driver Booking
-- GPS Tracking
-- Emergency SOS Support
+The literature suggests that combining EAR and PERCLOS with real-time computer vision provides an effective and practical solution for fatigue detection.
