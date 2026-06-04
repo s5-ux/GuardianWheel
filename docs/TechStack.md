@@ -1,33 +1,31 @@
 # Technology Stack
 
-## Frontend
+## Programming Language
+- Python
 
+## Computer Vision
+- OpenCV
+- Dlib
+
+## Machine Learning Concepts
+- Eye Aspect Ratio (EAR)
+- PERCLOS Analysis
+
+## Backend
+- Flask
+
+## Database
+- Firebase
+
+## Frontend
 - HTML
 - CSS
 - JavaScript
 
-## Backend
-
-- Flask
-
-## AI & Computer Vision
-
-- Python
-- OpenCV
-- Dlib
-- NumPy
-
-## Database
-
-- Firebase
-
-## APIs
-
+## Mapping and Tracking
 - Google Maps API
+- GPS Tracking
 
 ## Development Tools
-
-- Git
+- Visual Studio Code
 - GitHub
-- Draw.io
-- VS Code
