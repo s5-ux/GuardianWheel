@@ -1,8 +1,9 @@
 # Problem Statement
 
-Driver fatigue is one of the leading causes of road accidents worldwide. Existing transportation systems primarily focus on detecting drowsiness and issuing alerts, but they do not provide practical assistance once fatigue is detected.
+Driver fatigue is one of the major causes of road accidents worldwide. Long driving hours, lack of sleep, and reduced attention can lead to delayed reaction times and unsafe driving conditions.
 
-GuardianWheel aims to address this issue by combining real-time driver fatigue detection with a replacement driver assistance system. Using computer vision techniques such as Eye Aspect Ratio (EAR) and PERCLOS, the platform continuously monitors driver alertness.
+Existing solutions often require expensive hardware or are not suitable for real-time deployment in public transportation and ride-sharing systems.
 
-When fatigue is detected, the system alerts the driver and assists in locating verified replacement drivers, thereby improving road safety and reducing accident risks.
+The objective of GuardianWheel is to develop an AI-powered real-time driver monitoring system that detects fatigue using computer vision techniques such as facial landmark detection, eye monitoring, EAR (Eye Aspect Ratio), and PERCLOS analysis.
 
+When fatigue is detected, the system can alert the driver and optionally initiate replacement driver booking and live trip monitoring to improve passenger safety.
