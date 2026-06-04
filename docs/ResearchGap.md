@@ -1,24 +1,15 @@
 # Research Gap
 
-Current driver monitoring systems focus primarily on detecting drowsiness and generating alerts.
+Although many driver fatigue detection systems have been proposed, several limitations still exist:
 
-However, these systems do not provide further assistance after fatigue detection.
+1. Most existing systems focus only on fatigue detection and do not provide real-time assistance after fatigue is detected.
 
-## Limitations of Existing Systems
+2. Deep learning-based approaches often require high computational resources and large datasets, making deployment difficult on low-cost devices.
 
-- Alert-only approach
-- No replacement driver support
-- No emergency assistance
-- No integrated safety ecosystem
+3. Many solutions lack integration with driver replacement services and live trip monitoring.
 
-## Proposed Solution
+4. Existing systems are primarily designed for private vehicles and do not adequately address ride-sharing and public transportation safety.
 
-GuardianWheel addresses these limitations by combining:
+5. There is limited research on combining fatigue detection, replacement driver allocation, GPS tracking, and passenger safety into a single platform.
 
-- Real-Time Fatigue Detection
-- Driver Alert System
-- Replacement Driver Booking
-- GPS Tracking
-- Emergency SOS Support
-
-This transforms a warning-only system into a complete driver safety platform.
+GuardianWheel aims to bridge these gaps by providing a complete driver safety ecosystem that combines fatigue detection, alert generation, replacement driver booking, and real-time trip monitoring.
